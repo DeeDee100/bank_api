@@ -1,5 +1,8 @@
 package com.dio.devweek.model;
 
-public class Feature {
-    
+import jakarta.persistence.Entity;
+
+@Entity(name = "tb_feature")
+public class Feature extends BaseItem {
+
 }

@@ -19,4 +19,10 @@ spring:
                 trace: false
                 web-allow-others: false
 
+server:
+    error:
+        include-message: always
+        include-binding-errors: always
+        include-stacktrace: on-param
+        include-exception: false
 
